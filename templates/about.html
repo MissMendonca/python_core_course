@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>{{ page_title }}</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo molestias quaerat quo harum possimus fugit inventore sunt eius iusto fuga dolorum, ducimus earum ipsum ipsam consequatur unde ut. Id rem expedita qui itaque hic inventore placeat corrupti, nesciunt ipsa, esse animi, consectetur quod sed illo praesentium dolore incidunt unde quis vero. Ipsam ea reprehenderit eveniet voluptatum saepe similique corporis cupiditate libero alias autem asperiores dolorem, necessitatibus deleniti iusto assumenda accusantium suscipit ratione facilis dolorum esse numquam? Tempore architecto, animi corrupti inventore laudantium voluptas quisquam temporibus modi alias nobis sit, velit necessitatibus illum cum veritatis itaque iure pariatur quos nisi? Eligendi!
+    </p>
+    {% for member in company %}
+        
+        <div class="row featurette">
+            {% if loop.index %2 != 0 %}
+            <div class="col-md-7">
+                <h3><a href="/about/{{member.url}}"> {{ loop.index }} {{ member.name }}</a></h3>
+                <p>
+                    {{member.description}}
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="{{ member.image_source }}" alt="">
+            </div>
+            {% else %}
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="{{ member.image_source }}" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h3><a href="/about/{{member.url}}"> {{ loop.index }} {{ member.name }}</a></h3>
+                    <p>
+                        {{member.description}}
+                    </p>
+                </div>
+            {% endif %}
+        </div>
+        {% if loop.index != 3%}
+            <hr class="featurette-divider">
+        {% endif %}
+    {% endfor%}
+ 
+{% endblock %}   

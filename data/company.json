@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Brandy Williams",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus tempore cum, odio pariatur mollitia quod tempora quasi earum reprehenderit culpa vitae quidem ipsum quam, eveniet aspernatur quis rem laborum debitis iste accusamus provident quisquam vero aliquam. Quia fugiat quidem quibusdam, similique alias, repellat, omnis sunt culpa sit repellendus praesentium.",
+        "image_source":"https://assets.bigcartel.com/product_images/212669914/blackqueen1.jpg?auto=format&fit=max&w=1500",
+        "url":"brandy"
+
+    },
+    {
+        "name":"Radisha Navrawick",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus tempore cum, odio pariatur mollitia quod tempora quasi earum reprehenderit culpa vitae quidem ipsum quam, eveniet aspernatur quis rem laborum debitis iste accusamus provident quisquam vero aliquam. Quia fugiat quidem quibusdam, similique alias, repellat, omnis sunt culpa sit repellendus praesentium.",
+        "image_source":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6RjdNFQSaElG7U_SzGwImygZgEg5diYCNukodBMmrea_twf9t",
+        "url":"radish"
+
+    },
+    {
+        "name":"Narasha Marish",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus tempore cum, odio pariatur mollitia quod tempora quasi earum reprehenderit culpa vitae quidem ipsum quam, eveniet aspernatur quis rem laborum debitis iste accusamus provident quisquam vero aliquam. Quia fugiat quidem quibusdam, similique alias, repellat, omnis sunt culpa sit repellendus praesentium.",
+        "image_source":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpifQyAt40BvTATLZCw2WD-9Z01lVDtXl9Pbce7DGmdcTAVhA5",
+        "url":"narasha"
+
+    }
+]
